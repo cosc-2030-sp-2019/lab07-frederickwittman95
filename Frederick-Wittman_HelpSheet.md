@@ -4,7 +4,7 @@ Dr. Hill
 
 COSC 2030-01
 
-1 April 2019
+8 April 2019
 
 ### 1.  To comment C++ code:
 
@@ -95,3 +95,7 @@ class ClassName:
     .
     <statement-N>
 ```
+
+### 10. What is the drawback for the great speed of the bit-array data structure?
+
+One drawback is that bit-array are inefficient at storing sparse sets (sets that do not have many elements compared with their range).  Another drawback is that accessing individual elements can be time consuming and difficult to code in some languages.
