@@ -30,7 +30,7 @@ string whitespace(" \t\f\v\n\r");  // Define whitespace characters
     
 sampleString.substr(0, sampleString.find_last_not_of(whitespace));
 
-This returns a substring beginning at the zeroth element of sampleString and ending at the last character in sampleString that is not the parameter, which in this case is whitespace, of the the find_last_not_of function.  Note that this function will not strip whitespace inside the string, but only whitespace
+sThis returns a substring beginning at the zeroth element of sampleString and ending at the last character in sampleString that is not the parameter, which in this case is whitespace, of the the find_last_not_of function.  Note that this function will not strip whitespace inside the string, but only whitespace
 that trails the last character.
 
 ### 5.  How to create an object of type T and its pointer:
@@ -98,4 +98,4 @@ class ClassName:
 
 ### 10. What is the drawback for the great speed of the bit-array data structure?
 
-One drawback is that bit-array are inefficient at storing sparse sets (sets that do not have many elements compared with their range).  Another drawback is that accessing individual elements can be time consuming and difficult to code in some languages.
+One drawback is that bit-arrays are inefficient at storing sparse sets (sets that do not have many elements compared with their range).  Another drawback is that accessing individual elements can be time consuming and difficult to code in some languages.
